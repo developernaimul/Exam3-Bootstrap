@@ -1,0 +1,204 @@
+/* ===== Extra extra large ====== */
+@media (max-width: 1400px) {
+    
+}
+
+/* ===== Extra large ===== */
+@media (max-width: 1200px) {
+    .about-content p {
+        font-size: 14px;
+    }
+    .about-content .defult-heading h1 {
+        content: #111;
+        margin: 12px 0;
+        font-size: 25px;
+    }
+    .choose .defult-heading h1 {
+        content: #111;
+        margin: 12px 0;
+        font-size: 25px;
+    }
+    .choose .defult-heading P {
+        font-weight: 500;
+        color: #111;
+        font-size: 15px;
+    }
+    .choose-desc h4 {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .choose-desc p {
+        color: #707070;
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .team-box ul {
+        top: 68%;
+        left: 10%;
+    }
+}
+
+
+/* ===== Large ===== */
+@media (max-width: 992px) {
+    .menu-bar {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+    .header-left a.lfwf {
+        margin-right: 10px;
+    }
+    .header-left a span {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .header-left a {
+        font-size: 14px;
+    }
+    .header-left p {
+        font-size: 14px;
+    }
+    .header-left p span {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    /* menu */
+    .primary-menu .main-menu ul li {
+        margin-bottom: 10px;
+    }
+    .primary-menu .main-menu ul li a {
+        padding: 7px 15px;
+    }
+    .primary-menu .main-menu ul li ul {
+        position: absolute;
+        top: 0;
+        left: 125px;
+        width: 180px;
+        background: #fff;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,.1);
+        padding: 10px 0;
+        opacity: 0;
+        transform: scaleY(0);
+        visibility: hidden;
+        transform-origin: top;
+        transition: 0.4s;
+        z-index: 9;
+    }
+    .primary-menu .main-menu ul li:hover ul{
+        top: 0;
+        opacity: 1;
+        transform: scaleY(1);
+        visibility: visible;
+        transform-origin: top center;
+    }
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    .benner-bottom-img img {
+        height: 18vh;
+    }
+    .carousel-inner .carousel-item img {
+        height: 100vh;
+    }
+    .about-img{
+        margin-bottom: 100px !important;
+    }
+    .about-content .defult-heading{
+        text-align: center;
+    }
+    .about-content ul {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .about-content ul li{
+        width: 50%;
+        text-align: left;
+    }
+    .about-content {
+        padding-left: 25px;
+        text-align: center;
+    }
+    .project-box span.service-icon {
+        top: 240px;
+    }
+    .defult-heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .team-box ul {
+        top: 78%;
+        left: 21%;
+    }
+    .team-box ul li{
+        margin-left: 10px;
+    }
+    .contact-icon span {
+        right: 4%;
+    }
+    .footer-social{
+        text-align: center;
+    }
+
+}
+
+/* ===== Small ===== */
+@media (max-width: 768px) {
+    .header-right{
+        display: none;
+    }
+    .header-left{
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* menu */
+    .primary-menu .logo img {
+        width: 70px;
+    }
+    .cetagory .margin-ex{
+        margin-bottom: 55px !important;
+    }
+    .carousel-inner .carousel-item img {
+        height: 90vh;
+    }
+    .about-content ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .project-box span.service-icon {
+        top: 380px;
+    }
+    .team-box ul {
+        top: 69%;
+        left: 16%;
+    }
+    .team-box ul li{
+        margin-left: 5px;
+    }
+    .contact-text h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contact-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* ====== Small ===== */
+@media (max-width: 576px) {
+    
+}
+
+/* ===== X-Small ==== */
+@media (max-width: 576px) {
+    
+}

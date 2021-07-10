@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?ce3b54369760ea234dc51e3dc9b3bf0a") format("truetype"),
+url("./flaticon.woff?ce3b54369760ea234dc51e3dc9b3bf0a") format("woff"),
+url("./flaticon.woff2?ce3b54369760ea234dc51e3dc9b3bf0a") format("woff2"),
+url("./flaticon.eot?ce3b54369760ea234dc51e3dc9b3bf0a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ce3b54369760ea234dc51e3dc9b3bf0a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-mail:before {
+    content: "\f101";
+}
+.flaticon-phone-call:before {
+    content: "\f102";
+}
+.flaticon-clock:before {
+    content: "\f103";
+}
+.flaticon-search:before {
+    content: "\f104";
+}
+.flaticon-flask:before {
+    content: "\f105";
+}
+.flaticon-lab-tool:before {
+    content: "\f106";
+}
+.flaticon-microscope:before {
+    content: "\f107";
+}
+.flaticon-checked:before {
+    content: "\f108";
+}
+.flaticon-plus:before {
+    content: "\f109";
+}
+.flaticon-molecular:before {
+    content: "\f10a";
+}
+.flaticon-sugar-blood-level-1:before {
+    content: "\f10b";
+}
+.flaticon-anatomic-heart:before {
+    content: "\f10c";
+}
+.flaticon-right:before {
+    content: "\f10d";
+}
+.flaticon-user:before {
+    content: "\f10e";
+}
+.flaticon-call:before {
+    content: "\f10f";
+}
+.flaticon-calendar:before {
+    content: "\f110";
+}
+.flaticon-double-right-arrows-angles:before {
+    content: "\f111";
+}
+.flaticon-placeholder:before {
+    content: "\f112";
+}
+.flaticon-facebook:before {
+    content: "\f113";
+}
+.flaticon-twitter:before {
+    content: "\f114";
+}
+.flaticon-linkedin:before {
+    content: "\f115";
+}
+.flaticon-pinterest:before {
+    content: "\f116";
+}
+.flaticon-lung-cancer:before {
+    content: "\f117";
+}
+.flaticon-menu:before {
+    content: "\f118";
+}
+.flaticon-checked-1:before {
+    content: "\f119";
+}
+.flaticon-instagram:before {
+    content: "\f11a";
+}
+.flaticon-user-1:before {
+    content: "\f11b";
+}
+.flaticon-menu-1:before {
+    content: "\f11c";
+}
+.flaticon-instagram-logo:before {
+    content: "\f11d";
+}
+.flaticon-microscope-3:before {
+    content: "\f11e";
+}
+.flaticon-heart:before {
+    content: "\f11f";
+}
+.flaticon-down-chevron:before {
+    content: "\f120";
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: "\f121";
+}

@@ -1,0 +1,157 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ce3b54369760ea234dc51e3dc9b3bf0a") format("truetype"),
+url("./flaticon.woff?ce3b54369760ea234dc51e3dc9b3bf0a") format("woff"),
+url("./flaticon.woff2?ce3b54369760ea234dc51e3dc9b3bf0a") format("woff2"),
+url("./flaticon.eot?ce3b54369760ea234dc51e3dc9b3bf0a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ce3b54369760ea234dc51e3dc9b3bf0a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "mail": "\f101",
+    "phone-call": "\f102",
+    "clock": "\f103",
+    "search": "\f104",
+    "flask": "\f105",
+    "lab-tool": "\f106",
+    "microscope": "\f107",
+    "checked": "\f108",
+    "plus": "\f109",
+    "molecular": "\f10a",
+    "sugar-blood-level-1": "\f10b",
+    "anatomic-heart": "\f10c",
+    "right": "\f10d",
+    "user": "\f10e",
+    "call": "\f10f",
+    "calendar": "\f110",
+    "double-right-arrows-angles": "\f111",
+    "placeholder": "\f112",
+    "facebook": "\f113",
+    "twitter": "\f114",
+    "linkedin": "\f115",
+    "pinterest": "\f116",
+    "lung-cancer": "\f117",
+    "menu": "\f118",
+    "checked-1": "\f119",
+    "instagram": "\f11a",
+    "user-1": "\f11b",
+    "menu-1": "\f11c",
+    "instagram-logo": "\f11d",
+    "microscope-3": "\f11e",
+    "heart": "\f11f",
+    "down-chevron": "\f120",
+    "arrow-down-sign-to-navigate": "\f121",
+);
+
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-flask:before {
+    content: map-get($flaticon-map, "flask");
+}
+.flaticon-lab-tool:before {
+    content: map-get($flaticon-map, "lab-tool");
+}
+.flaticon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-molecular:before {
+    content: map-get($flaticon-map, "molecular");
+}
+.flaticon-sugar-blood-level-1:before {
+    content: map-get($flaticon-map, "sugar-blood-level-1");
+}
+.flaticon-anatomic-heart:before {
+    content: map-get($flaticon-map, "anatomic-heart");
+}
+.flaticon-right:before {
+    content: map-get($flaticon-map, "right");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-double-right-arrows-angles:before {
+    content: map-get($flaticon-map, "double-right-arrows-angles");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-lung-cancer:before {
+    content: map-get($flaticon-map, "lung-cancer");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
+.flaticon-checked-1:before {
+    content: map-get($flaticon-map, "checked-1");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
+}
+.flaticon-instagram-logo:before {
+    content: map-get($flaticon-map, "instagram-logo");
+}
+.flaticon-microscope-3:before {
+    content: map-get($flaticon-map, "microscope-3");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-down-chevron:before {
+    content: map-get($flaticon-map, "down-chevron");
+}
+.flaticon-arrow-down-sign-to-navigate:before {
+    content: map-get($flaticon-map, "arrow-down-sign-to-navigate");
+}
